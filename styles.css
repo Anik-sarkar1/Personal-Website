@@ -1,0 +1,268 @@
+p{
+    font-family: 'Roboto', sans-serif;
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.color1{
+    color: #363958;
+}
+#color2{
+    color:rgb(255, 131, 103);
+}
+
+.text1{
+   
+font-size: 14px;
+   
+color: #3e3e3e;
+   
+font-weight: 600;
+   
+text-align: justify;
+   
+line-height: normal;
+   
+width: 371px;
+   
+padding-bottom: 15px;
+}
+.link-button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(255, 131, 103),rgb(255, 188, 112));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+.section1{
+    width: 100%;
+    margin: 0 auto;
+}
+.section2{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+.section1::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.section2::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.sec1-text{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 5%;
+    padding-top: 6%;
+}
+    
+.sec1-img{
+    float: right;
+    width: 30%;
+    margin-right: 152px;
+    margin-top: 65px;
+}
+.sec1-img img{
+    max-width: 100%;
+}
+.sec2-text{
+    width: 40%;
+    float: right;
+    padding-top: 5%;
+    margin-top: 120px;
+}
+.sec2-img{
+    float: left;
+    width: 40%;
+    margin-left: 115px;
+    margin-top: 65px;
+}
+.sec2-img img{
+    max-width: 100%;
+}
+h4{
+    text-align: right;
+    color: #363958;
+    font-size: 15px;
+    font-weight: 500;
+    word-spacing: 15px;
+    padding-right: 10%;
+}
+#about{
+    font-size: 27px;
+    line-height: 24px;
+    color:  #363958;
+    font-weight: 600;
+    
+} 
+#red{
+    color: rgb(255, 131, 103)
+}
+#sec2{
+    height: 500px;
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: #F8F9FC;
+    padding-top: 0px;
+    padding-left: 250px;
+    
+}
+/* prortfolio section */
+#working-project {
+    background-color: #f6f6f6c9;
+    padding: 40px;
+}
+.work-title{
+
+text-align: center;
+}
+.color-orange{
+    color: tomato;
+}
+.work-title h1{
+    color: #3e3e3e;
+}
+
+.project-img::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.design1{
+    width: 30%;
+    float: left;
+    margin-left: 37px;
+    margin-top: 28px;
+    border: none;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 20px;
+}
+.design1-img{
+    
+text-align: center;
+}
+.design1-img img{
+    max-width: 75%;
+    display: inline-block;
+}
+.design1-text{
+    margin-left: 30px;
+}
+
+.design1-text h3{
+   font-size: 25px;
+
+}
+
+/* blog section */
+#blog-project {
+    background-color: #cac9c9c9;
+    padding: 40px;
+}
+.blog-title{
+
+text-align: center;
+}
+.color-orange{
+    color: tomato;
+}
+.work-title h1{
+    color: #3e3e3e;
+}
+
+.blog-img::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.design10 {
+    width: 30%;
+    float: left;
+    margin-left: 37px;
+    margin-top: 28px;
+    background: white;
+    border: none;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 20px;
+    height: 591px;
+}
+.design10-img{
+    
+text-align: center;
+}
+.design10-img img{
+    max-width: 75%;
+    display: inline-block;
+}
+.design10-text{
+    margin-left: 30px;
+}
+
+.design10-text h3{
+   font-size: 25px;
+
+}
+
+/* inquiry section */
+#chat-sec {
+    padding: 100px 0px;
+}
+.bg-inquiry{
+    background-image: url(shapes/Group_33094_1.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    height: 180px;
+    margin-left: 403px;
+}
+
+.inquiry-text h2{
+    font-size: 40px;
+    float: left;
+    margin: 66px 65px;
+    color: white;
+}
+
+.chat-btn{   
+    background: tomato;   
+    border: none;    
+    padding: 14px 28px;   
+    margin: 77px 133px;   
+    border-radius: 7px;
+    }
+.chat-btn a{
+   text-decoration: none;
+   color: white;
+}
+.hello-design{
+    text-align: center;
+}
+.hello-design h5{
+    color: gray;
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+.hello-design h3{
+    font-size: 30px;
+}
+.hello-image{
+   text-align: center; 
+}
+.icon{
+    display: inline-block;
+}
+.hello-image img {
+    max-width: 30px;
+}
